@@ -28,6 +28,11 @@
 
         <!-- Core Style Css -->
         <link rel="stylesheet" href="css/style.css" />
+		
+		<!-- SocialCounter Css -->
+		<link rel="stylesheet" href="css/counter.css">
+		<link href='https://fonts.googleapis.com/css?family=Open+Sans:400,600' rel='stylesheet' type='text/css'>
+		<link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
 
     </head>
 
@@ -141,16 +146,24 @@
     				<!-- Section-Head -->
     				<div class="section-head full-width">
    
-						<h1>Updated Automatically</h1>
-						<br>
-						<h3>Instagram Account</h3>
-						<strong><center><a href="https://www.instagram.com/sana.picture" style="font-size:25px;color:teal" class="alert-link">@SANA.PICTURE</a></center></strong>
-						<br>
-						<div class="alert alert-info">
-						<strong><center><p><font size="6px"; font color="black">PLEASE LET US KNOW IF THERE IS ANY ISSUE</font></p><a href="mailto:losenhan1@gmail.com" class="alert-link"><font size="4px"; font color="red">CLICK HERE TO REPORT</font></a></center></strong>
-						
-    				</div>
-    			</div>
+							<h1>Updated Automatically</h1>
+							<br>
+							<div class="alert alert-info">
+							<strong><center><p><font size="6px"; font color="black">PLEASE LET US KNOW IF THERE IS ANY ISSUE</font></p><a href="mailto:losenhan1@gmail.com" class="alert-link"><font size="4px"; font color="red">CLICK HERE TO REPORT</font></a></center></strong>
+							</div>
+							<h3>Instagram Account</h3>
+							<strong><center><a href="https://www.instagram.com/sana.picture" style="font-size:25px;color:teal" class="alert-link">@SANA.PICTURE</a></center></strong>
+							<br>
+							<div id="wrapper">
+							<a class="item instagram"><i class="fa fa-instagram"></i><span class="count"> </span>Followers<br><p><font color="white">@sana.picture</font></p></a> 
+							</div>
+							
+							
+							
+					</div>
+				</div>
+
+
 
 				<section id="feed">
 						<div class="wrapper">
@@ -158,15 +171,13 @@
 							<iframe src="https://snapwidget.com/embed/530027/" style="width: 100%; height: 100%;"></iframe>
 							</div>
 						</div>
-						</section>
-					
+					</section>
 				</div>
 			</div>
 		</section>
     	<!-- End Portfolio ====
     	======================================= -->
 
-		
 		
     	<!-- =====================================
     	==== Start Footer -->
@@ -197,6 +208,19 @@
 		})(window, document, '_gscq','script','//widgets.getsitecontrol.com/133364/script.js');
 		</script>
        
+	   <!-- SOCIAL COUNTERS -->
+	   <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+		<script src="js/api.js"></script>
+		<script>
+		$('#wrapper').SocialCounter({
+			//Get Usernames
+			instagram_user: 'sana.picture',
+			//Get Access Tokens,keys,client_ids
+			instagram_token:'7451055927.b096e7a.14186ece323546d2a0bd9ba52c685142',
+	
+		});
+		</script>
+	   
 	   <!-- ================= DO NOT CHANGE ====================== -->
 	   
         <!-- jQuery -->
