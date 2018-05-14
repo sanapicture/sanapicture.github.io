@@ -538,13 +538,13 @@ span, a, a:hover {
   left: 15px;
   right: 5px;
   top: 15px;
-  bottom: -15px;
+  bottom: 15px;
   z-index: -1;
   -webkit-transition: all .5s;
   transition: all .5s;
 }
 .hero .content p {
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 .hero .content p span {
   font-weight: 700;
